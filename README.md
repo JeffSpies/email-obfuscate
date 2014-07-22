@@ -1,6 +1,6 @@
 # Coming Soon
 
-# py-email-obfuscate
+# py-email-obfuscator
 
 ## An empirically-based, email obfuscation library for Python.
 
@@ -19,7 +19,7 @@ that browser only displays the email address.
 Example:
 
 ```python
-from email_obfuscate import obfuscate
+from email_obfuscator import obfuscate
 
 obfuscate('example@example.com', text='My Email Address', noscript_preface='My Email Address: ')
 ```
