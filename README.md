@@ -1,5 +1,3 @@
-# Coming Soon
-
 # py-email-obfuscator
 
 ## An empirically-based, email obfuscation library for Python.
