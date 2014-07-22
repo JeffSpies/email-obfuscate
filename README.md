@@ -21,7 +21,7 @@ Example:
 ```python
 from email_obfuscate import obfuscate
 
-obfuscate('example@exaple.com', text='My Email Address', noscript_preface='My Email Address: ')
+obfuscate('example@example.com', text='My Email Address', noscript_preface='My Email Address: ')
 ```
 
 returns
