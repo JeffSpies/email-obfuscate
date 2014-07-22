@@ -18,12 +18,15 @@ that browser only displays the email address.
 
 Example:
 
-    from email_obfuscate import obfuscate
+```python
+from email_obfuscate import obfuscate
 
-    obfuscate('example@exaple.com', text='My Email Address', noscript_preface='My Email Address: ')
-
+obfuscate('example@exaple.com', text='My Email Address', noscript_preface='My Email Address: ')
+```
 
 returns
 
-    <script type="text/javascript">document.write("<n uers=\"znvygb:rknzcyr@rkncyr.pbz\" ery=\"absbyybj\">Zl Rznvy Nqqerff</n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script><noscript>My Email Address: <span class="obfuscated-email-noscript"><strong><u>exampl<span style="display:none;">null</span>e@exap<span style="display:none;">null</span>le.com</u></strong></span></noscript>
+```html
+<script type="text/javascript">document.write("<n uers=\"znvygb:rknzcyr@rkncyr.pbz\" ery=\"absbyybj\">Zl Rznvy Nqqerff</n>".replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)}));</script><noscript>My Email Address: <span class="obfuscated-email-noscript"><strong><u>exampl<span style="display:none;">null</span>e@exap<span style="display:none;">null</span>le.com</u></strong></span></noscript>
+```
 
