@@ -26,7 +26,7 @@ setup(
     name='email_obfuscator',
     version='0.1.0',
     description='An empirically-based, email obfuscation library for Python',
-    long_description=readme # + '\n\n' + history,
+    long_description=readme, # + '\n\n' + history,
     author='Jeff Spies',
     author_email='jspies@gmail.com',
     url='https://github.com/jeffspies/py-email-obfuscator',
